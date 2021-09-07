@@ -6,7 +6,6 @@ const tagRoutes = require('./tag-routes');
 // this connects to the different routes the '/XXX' is for url ending
 router.use('/categories', categoryRoutes);
 router.use('/products', productRoutes);
-// router.use('/product_tags', productTags);
 router.use('/tags', tagRoutes);
 
 module.exports = router;
