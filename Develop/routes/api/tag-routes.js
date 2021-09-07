@@ -11,8 +11,8 @@ router.get("/", async (req, res) => {
     });
     res.status(200).json(tagData);
   } catch (err) {
-  res.status(500).json(err);
-  // be sure to include its associated Product data
+    res.status(500).json(err);
+    // be sure to include its associated Product data
   }
 });
 
@@ -50,12 +50,16 @@ router.post("/", async (req, res) => {
 // update a tag's name by its `id` value
 router.put("/:id", async (req, res) => {
   try {
-    const tagData = await Tag.update({
-      tag_name: req.body.tag_name,},
-      { where: {
-        id: req.params.id,
+    const tagData = await Tag.update(
+      {
+        tag_name: req.body.tag_name,
       },
-    });
+      {
+        where: {
+          id: req.params.id,
+        },
+      }
+    );
 
     if (!tagData) {
       res.status(404).json({ message: "No matching id found" });
