@@ -19,9 +19,9 @@
   
   ## Installation Instructions
   
-  * By copying the files within this repository, the user can place them in a setting of their choosing and can access the app by running the command "node server.js" Can be accessed via a terminal application or via the integrated terminal in VS Code. 
+  * By copying the files within this repository, the user can place them in a setting of their choosing and can access the app by running the command "node server.js". Can be accessed via a terminal application or via the integrated terminal in VS Code. Before starting the server, user must run mysql by entering "mysql -u root -p." Following, the user must create the database by entering "source schema.sql;" while in the appropriate directory. Next, the user must seed the databse by entering "npm run seed" while in the appropriate directory. Once these have been run, the server can be started and tested via the inquirer app. For URLS and a walkthrough, please view the video found below at the YouTube link. 
   
-  ## Usage
+    ## Usage
   
   * Github repository for source files: https://github.com/WebDeverDan/E-Commerce-Back-End
   * Video walkthrough can be found here: https://youtu.be/8ymswsQaeN0
@@ -49,10 +49,10 @@
   * If you have any questions regarding the application, please reach out to **Daniel Bradley** (the creator), at their GitHub profile located here: **https://github.com/WebDeverDan**, or via email at **danielbvideo@gmail.com**.
 
   ## Screenshots
-  ![Image 1 of application:]()
-  ![Image 2 of application:]()
-  ![Image 3 of application:]()
-  ![Image 4 of application:]()
+  ![Image 1 of application:](https://github.com/WebDeverDan/E-Commerce-Back-End/blob/0c4e4ee1ed0f68e6a7d44a1a130ea1d0e1fcbc74/Assets/Screenshots/Database%20Creation.png)
+  ![Image 2 of application:](https://github.com/WebDeverDan/E-Commerce-Back-End/blob/0c4e4ee1ed0f68e6a7d44a1a130ea1d0e1fcbc74/Assets/Screenshots/Seeding.png)
+  ![Image 3 of application:](https://github.com/WebDeverDan/E-Commerce-Back-End/blob/0c4e4ee1ed0f68e6a7d44a1a130ea1d0e1fcbc74/Assets/Screenshots/Server%20Initialization.png)
+  ![Image 4 of application:](https://github.com/WebDeverDan/E-Commerce-Back-End/blob/0c4e4ee1ed0f68e6a7d44a1a130ea1d0e1fcbc74/Assets/Screenshots/Inquirer%20Interface.png)
 
 
 
