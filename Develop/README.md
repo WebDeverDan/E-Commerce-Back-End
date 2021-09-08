@@ -24,7 +24,7 @@
   ## Usage
   
   * Github repository for source files: https://github.com/WebDeverDan/E-Commerce-Back-End
-  * Video walkthrough can be found here: 
+  * Video walkthrough can be found here: https://youtu.be/8ymswsQaeN0
   
   ## Contributing
   
